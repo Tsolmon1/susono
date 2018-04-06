@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Админы удирдлага</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="map/stylesheets2/base.css">
+	<link rel="stylesheet" href="map/stylesheets2/skeleton.css">
+	<link rel="stylesheet" href="map/stylesheets2/layout.css">
+    <link rel="stylesheet" href="map/stylesheets2/uniform.default.css">
+    <link rel="stylesheet" href="map/stylesheets2/jquery.fancybox.css">
+  
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="map/images/muzg.png">
+	<link rel="apple-touch-icon" href="map/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="map/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="map/images/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- Delete everything in this .container and get started on your own site! -->
+
+	<div class="container body-cont">
+		<div class="twenty-one top-menu columns alpha omega padd-alpha padd-omega">
+			<p class="remove-bottom top-logo">
+              <img src="map/images/muzg.png" />
+            </p>
+			
+		</div>
+		
+		<section id="login-content" class="clearfix">
+          <div class="row-fluid">
+            <div class="offset2">
+              <div class="widget-content-login">
+              <h3><i class="icon iconfa-lock"></i>Нэвтрэх хэсэг</h3>
+                <form method="POST" id="checkForm" class="desing-form" action="http://localhost/zam/zam/index.php/auth/login">
+            <div class="control-group">
+        <label class="control-label">Нэвтрэх нэр:</label>
+        <div class="controls">
+       <input type="text" id="login_admin" name="login_admin" placeholder="Нэвтрэх нэр" />
+       </div>
+        </div>
+            <div class="control-group">
+        <label class="control-label">Нууц үг:</label>
+        <div class="controls">
+       <input type="password" id="h-password_admin" name="h-password_admin" placeholder="Нууц үг" width="150"/>
+       </div>
+        </div>
+		<div class="" align="center">
+			<p style="color: red;" id="result"></p>
+        </div>
+        <div class="control-group">
+        <button class="btn">Нэвтрэх</button>
+        <div class="controls">
+       
+       </div>
+        </div>
+            
+                
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+		
+
+	</div><!-- container -->
+
+
+<!-- End Document
+================================================== -->
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+<script type="text/javascript" src="map/js/easing.js"></script>
+<script>
+$(document).ready(function() { 
+	var x = document.URL;
+	if(x == 'http://localhost/zam/admin_login.html?error=1') {
+		document.getElementById("result").innerHTML = 'Таны нэр эсвэл нууц үг буруу байна.';
+	}
+});
+</script>
+</body>
+</html>

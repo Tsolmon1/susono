@@ -1,0 +1,47 @@
+{
+    "id":1,
+    "name":"Замын ажил",
+    "start":1485234000,
+    "deadline":1486070885,
+    "jobs":[
+        {   "id":1,
+            "name":"1-р хэсэг",
+            "start": 1485301300,
+            "deadline":1486070885,
+            "planned_conditions": [
+                { "id":1, "name":"Шороон далан",  "start": 1485325454, "deadline":1485421679, "color":"u-bg-brown-lighter", "color_code":"#ab8172" },
+                { "id":2, "name":"Дэд суурь",     "start": 1485433719, "deadline":1485571287, "color":"u-bg-brown", "color_code":"#795548" },
+                { "id":3, "name":"Далангийн дээд","start": 1485564488, "deadline":1485670099, "color":"u-bg-brown-darker", "color_code":"#3f2d26" },
+                { "id":4, "name":"Суурь",         "start": 1485749529, "deadline":1485810306, "color":"u-bg-brand-light", "color_code":"#3c556e" },
+                { "id":5, "name":"Асфальт",       "start": 1485870885, "deadline":1485970885, "color":"u-bg-brand-dark", "color_code":"#1c2732" },
+                { "id":6, "name":"Шингэн цацлага","start": 1485870885, "deadline":1486070885, "color":"u-bg-green-dark", "color_code":"#3e8f41" }
+            ]
+        },
+        {   "id":2,
+            "name":"2-р хэсэг",
+            "start":1485563068,
+            "deadline":1485620852,
+            "planned_conditions": [
+                { "id":1, "name":"Шороон далан",  "start": 1485354063, "deadline":1485234000, "color":"u-bg-brown-lighter", "color_code":"#ab8172" },
+                { "id":2, "name":"Дэд суурь",     "start": 1485565404, "deadline":1485320400, "color":"u-bg-brown", "color_code":"#795548" },
+                { "id":3, "name":"Далангийн дээд","start": 1485301300, "deadline":1485406800, "color":"u-bg-brown-darker", "color_code":"#3f2d26" },
+                { "id":4, "name":"Суурь",         "start": 1485301300, "deadline":1485493200, "color":"u-bg-brand-light", "color_code":"#3c556e" },
+                { "id":5, "name":"Асфальт",       "start": 1485301300, "deadline":1485561600, "color":"u-bg-brand-dark", "color_code":"#1c2732" },
+                { "id":6, "name":"Шингэн цацлага","start": 1485301300, "deadline":1485579600, "color":"u-bg-green-dark", "color_code":"#3e8f41" }
+            ]
+        },
+        {   "id":3,
+            "name":"3-р хэсэг",
+            "start":1485648552,
+            "deadline":1485911547,
+            "planned_conditions": [
+                { "id":1, "name":"Шороон далан",  "start": 1485485892, "deadline":1485234000, "color":"u-bg-brown-lighter", "color_code":"#ab8172" },
+                { "id":2, "name":"Дэд суурь",     "start": 1485301300, "deadline":1485320400, "color":"u-bg-brown", "color_code":"#795548" },
+                { "id":3, "name":"Далангийн дээд","start": 1485301300, "deadline":1485406800, "color":"u-bg-brown-darker", "color_code":"#3f2d26" },
+                { "id":4, "name":"Суурь",         "start": 1485301300, "deadline":1485493200, "color":"u-bg-brand-light", "color_code":"#3c556e" },
+                { "id":5, "name":"Асфальт",       "start": 1485301300, "deadline":1485561600, "color":"u-bg-brand-dark", "color_code":"#1c2732" },
+                { "id":6, "name":"Шингэн цацлага","start": 1485301300, "deadline":1485579600, "color":"u-bg-green-dark", "color_code":"#3e8f41" }
+            ]
+        }
+    ]
+}

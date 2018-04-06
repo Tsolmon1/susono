@@ -1,0 +1,32 @@
+{
+  "name": "blaze",
+  "version": "3.0.0",
+  "description": "Open Source CSS Framework",
+  "main": "dist/blaze.min.css",
+  "authors": [
+    "Gregory Pratt"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "html5",
+    "sass",
+    "scss",
+    "css",
+    "bem",
+    "itcss",
+    "bemit",
+    "ui",
+    "ux",
+    "framework",
+    "components"
+  ],
+  "homepage": "https://github.com/BlazeCSS/blaze",
+  "moduleType": [],
+  "ignore": [
+    "*.*",
+    "node_modules",
+    "bower_components",
+    "demo",
+    "scss"
+  ]
+}
